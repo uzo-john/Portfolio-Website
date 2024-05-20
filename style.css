@@ -82,14 +82,144 @@ header.sticky .nav-bar {
     transition: .3s ease;
 }
 .nav-items a.active {
-    color:#2eaab3;
+    color:#002d5b;
 }
 .nav-items a:not(:last-child) {
     margin-right: 40px;
 }
 .nav-items a:hover {
-    color: #2eaab3;
+    color:#002d5b;
 }
 .nav-menu-btn {
     display: none;
+}
+/* Home section */
+
+.home {
+    position: relative;
+    max-width: 1250px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1rem;
+    flex-direction: column;
+}
+.home .home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.home-container .home-img {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+   
+}
+.home-container .home-img img {
+    transform: translateY(0, 0);
+    margin-top: 60px;
+}
+.home-container .home-img img {
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 10em;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.home-container .media-icons {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  
+}
+.home-container .media-icons a {
+    color: #404660;
+    font-size: 1rem;
+    margin: 10px 0;
+    transition: .3s ease;
+}
+.home-container .media-icons a:hover {
+    color:#002d5b;
+}
+
+.home-container .info h2 {
+    position: relative;
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 60px;
+    color:#002d5b;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+
+.home-container .info .greetings {
+    font-weight: 600;
+    opacity: 0.9;
+    color: #404660;
+}
+.home-container .info h3 {
+    color:#404660;
+    font-feature-settings: 1.3em;
+    font-weight: 600;
+    opacity: 0.9;
+    line-height: 40px;
+}
+.home-container .info p {
+    color:  #777;
+    font-size: 1em;
+    max-width: 350px;
+}
+.btn {
+    background:#002d5b ;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 18px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    transition: .3s ease;
+}
+.btn:hover {
+    background-color: ;
+}
+/* .home .scroll-down {
+    color: #404660;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}
+.home .scroll-down i {
+    color:#2eaab3 ;
+    font-size: 1.2em;
+    animation: arrow-down ease 2s infinite;
+}
+@keyframes arrow-down {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(10px);
+    }
+} */
+/* Common styles for all sections */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding: 3rem;
 }
