@@ -76,7 +76,11 @@ const revealOptions = {
  ScrollReveal().reveal('.home .media-icons i, .contact-left li', { ...revealOptions, origin: 'left' });
  ScrollReveal().reveal('.home-img, .about-img', { delay: 500, origin: 'bottom' });
  ScrollReveal().reveal('.about .description, .copy-right', { ...revealOptions, origin: 'right' });
+ ScrollReveal().reveal('.skills-description .service-description, .contact-card, .client-swiper, contact-left h2', { delay: 700, origin: 'left' });
+ScrollReveal().reveal('.service-card, .education, .portfolio .img-card', { delay: 800, origin: 'bottom' });
  ScrollReveal().reveal('.about', { ...revealOptions, origin: 'right' });
  ScrollReveal().reveal('.footer .group', { ...revealOptions, origin: 'top' });
  ScrollReveal().reveal('.home-huh-blurb', { ...revealOptions, origin: 'left' });
  ScrollReveal().reveal('.layout-third-md', { ...revealOptions, origin: 'top' });
+
+ 
